@@ -14,6 +14,9 @@ apt install ruby
 gem install lolcat
 apt install mpv python
 pip install youtube-dl 
+cd ..
+mv MUDATOR_gnulinux /root/
+echo "alias MUDATOR='cd /root/MUDATOR_gnulinux && bash MUDATOR.sh'"
 ;;
 [nN][oO]|[nN])
 clear
