@@ -17,6 +17,8 @@ pip install youtube-dl
 cd ..
 mv MUDATOR_gnulinux /root/
 echo "alias MUDATOR='cd /root/MUDATOR_gnulinux && bash MUDATOR.sh'" >> ~/.bash_aliases
+clear
+echo "Now you can execute MUDATOR by typing 'MUDATOR'" | lolcat -a
 ;;
 [nN][oO]|[nN])
 clear
