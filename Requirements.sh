@@ -16,7 +16,7 @@ apt install mpv python
 pip install youtube-dl 
 cd ..
 mv MUDATOR_gnulinux /root/
-echo "alias MUDATOR='cd /root/MUDATOR_gnulinux && bash MUDATOR.sh'"
+echo "alias MUDATOR='cd /root/MUDATOR_gnulinux && bash MUDATOR.sh'" >> ~/.bash_aliases
 ;;
 [nN][oO]|[nN])
 clear
