@@ -6,7 +6,9 @@ A program that literally recomends music... so good taste music
     
 *Usage:
     -root@bashAlias~#  "MUDATOR" 
+    
     or
+    
     -execute "bash MUDATOR.sh"
     
     
