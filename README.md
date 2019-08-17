@@ -1,5 +1,5 @@
 # MUDATOR_gnulinux
-A program that literally recomends music... so good taste music
+### A program that literally recomends music... so good taste music
 
  For the first use:
  ```
@@ -9,7 +9,9 @@ Usage:
     ```
     MUDATOR 
     ```
-    or if you have problems, try...
+    
+   or if you have problems, try...
+    
     ```
     bash MUDATOR.sh
     ```
