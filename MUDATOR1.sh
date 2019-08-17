@@ -1,7 +1,10 @@
+#!/bin/bash
+#Coded by Krypt0N
+
 GREEN='\033[0;32m'
 NC='\033[0;49m'
 
-if command -v figlet; then #FIGLET
+if command -v figlet; then 
     if command -v toilet; then
 	if command -v ruby; then
 		if command -v lolcat; then
@@ -52,5 +55,5 @@ fi
     echo "You don't have installed Toilet. Please install dependences by running 'sh Requirements.sh'"
     fi
 else #FIGLET
-    echo "You don't have installed FIGlet. Please install dependences by running 'sh Requirements.sh'" #FIGLET 
+    echo "You don't have installed FIGlet. Please install dependences by running 'sh Requirements.sh'" 
 fi
