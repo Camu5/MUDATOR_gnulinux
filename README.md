@@ -2,16 +2,19 @@
 ### A program that literally recomends music... so good taste music
 
  For the first use:
+
  ```
     sh Requirements.sh
  ```
 Usage:
+
+
     ```
     MUDATOR 
     ```
     
    or if you have problems, try...
-    
+     
     ```
     bash MUDATOR.sh
     ```
