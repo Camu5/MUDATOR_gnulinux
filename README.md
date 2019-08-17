@@ -5,7 +5,9 @@ A program that literally recomends music... so good taste music
     -execute "sh Requirements.sh"
     
 *Usage:
-    -execute "sh MUDATOR.sh"
+    -root@bashAlias~#  "MUDATOR" 
+    or
+    -execute "bash MUDATOR.sh"
     
     
 MUDATOR (by MUsic recomenDATOR) it's a programm that literally recomends music by genre. So if you like rock (for example.) you can listen some good rock songs that probably you don't know. Or if you heard a song that you liked at a party and you don't know the name, you might find it if you know the genre... There is so many uses for MUDATOR!
