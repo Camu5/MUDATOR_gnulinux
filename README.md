@@ -18,7 +18,7 @@ Usage:
    or if you have problems, try...
      
     
-    bash MUDATOR.sh
+    bash MUDATOR1.sh
     
     
 **MUDATOR (by MUsic recomenDATOR)** it's a program that literally _recomends music by genre_. So if you like rock (for example.) _you can listen some good rock songs that probably you don't know_. Or if you heard a song that you liked at a party and you don't know the name, you might find it if you know the genre... There is so many uses for **MUDATOR!**
