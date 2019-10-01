@@ -1,0 +1,67 @@
+#!/bin/bash
+
+#Coded by Krypt0N
+
+items=("https://www.youtube.com/watch?v=sHQ9BdvZPco" "https://www.youtube.com/watch?v=NMlKHIqtuO0" "https://www.youtube.com/watch?v=uyo9zQvtKbE" "https://www.youtube.com/watch?v=IhnOpwOMHgk" "https://www.youtube.com/watch?v=VCQq4fbIEZE")
+size=${#items[@]}
+randomindex=$(($RANDOM % $size))
+
+echo -e "\e[1;4;35mIf you want to stop playing press (CTRL + C)"
+
+mpv ${items[$randomindex]}
+
+CANCION=${items[$randomindex]}
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=sHQ9BdvZPco" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Devuelveme a mi Chica - Hombres G" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=IhnOpwOMHgk" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Lobo-Hombre en Paris - La Unión" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=VCQq4fbIEZE" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: De Musica Ligera - Soda Stereo" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=NMlKHIqtuO0" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Viento - Caifanes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=uyo9zQvtKbE" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Matenme Porque Me Muero - Caifanes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=WXthANus1YM" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: La Celula que Explota - Caifanes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi

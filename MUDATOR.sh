@@ -1,7 +1,7 @@
 #!/bin/bash
 #Coded by Krypt0N
 
-if [ -f MRIndie ] && [ -f MRock ] && [ -f RMetal ]
+if [ -f MRIndie ] && [ -f MRock ] && [ -f RMetal ] && [ -f MRPop ] && [ -f ED-MR ] && [ -f MRLatina ] && [ -f MRap ]
 then 
 	clear 
 else 
@@ -16,7 +16,7 @@ echo -e "\e[1mA Music Recomendator!" | lolcat -a
   echo -e "\e[91m------------------------------------------------------"
  echo  -e "\e[93mPlease, choose a musical genre:" 
 PS3="#?" 
- options=("Rock" "Indie/Alternative" "Metal" "Quit")
+ options=("Rock" "Indie/Alternative" "Metal" "Pop" "Electronic" "Latina" "Rap" "Quit")
  select opt in "${options[@]}"
 do
     case $opt in
@@ -35,6 +35,26 @@ do
 	    bash RMetal
 	    exit
             ;;
+        "Pop")
+        echo "Excellent Choice!" | lolcat -a
+        bash MRPop
+        exit
+            ;;
+        "Electronic")
+        echo "Exquisite Choice!" | lolcat -a
+        bash ED-MR
+        exit
+            ;;
+        "Latina")
+        echo "Very Good Choice!" | lolcat -a
+        bash MRLatina
+        exit
+            ;;
+        "Rap")
+        echo "Interesting Choice!" | lolcat -a
+        bash MRap
+        exit
+            ;;           
         "Quit")
 	    echo "See ya later!" | lolcat -a 
 	    clear	

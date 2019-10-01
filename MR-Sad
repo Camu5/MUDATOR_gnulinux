@@ -1,0 +1,58 @@
+#!/bin/bash
+
+#Coded by Krypt0N
+
+items=("https://www.youtube.com/watch?v=R2LQdh42neg" "https://www.youtube.com/watch?v=jPBSkfRUwhk" "https://www.youtube.com/watch?v=_nW5AF0m9Zw" "https://www.youtube.com/watch?v=V5YOhcAof8I")
+size=${#items[@]}
+randomindex=$(($RANDOM % $size))
+
+echo -e "\e[1;4;35mIf you want to stop playing press (CTRL + C)"
+
+mpv ${items[$randomindex]}
+
+CANCION=${items[$randomindex]}
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=R2LQdh42neg" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Nothing´s Gonna Hurt You Baby - Cigarettes After Sex" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=_nW5AF0m9Zw" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Angels - The xx" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=V5YOhcAof8I" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: The Trip - Still Corners" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=jPBSkfRUwhk" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Black Lagoon - Still Corners" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=jPBSkfRUwhk" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Black Lagoon - Still Corners" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi

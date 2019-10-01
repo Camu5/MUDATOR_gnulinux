@@ -1,0 +1,124 @@
+#!/bin/bash
+
+#Coded by Krypt0N
+
+items=("https://www.youtube.com/watch?v=UZton86SuOg" "https://www.youtube.com/watch?v=f3XcNskAxp0" "https://www.youtube.com/watch?v=fE84i9D9naA" "https://www.youtube.com/watch?v=gKylgPPzJHk" "https://www.youtube.com/watch?v=iU7oF4OXZSE" "https://www.youtube.com/watch?v=TdlWG29Flow" "https://www.youtube.com/watch?v=SSkDfGa9Bnw" "https://www.youtube.com/watch?v=6F9N-6ITFnA" "https://www.youtube.com/watch?v=DCkJ5lGPqFs")
+
+size=${#items[@]}
+randomindex=$(($RANDOM % $size))
+
+echo -e "\e[1;4;35mIf you want to stop playing press (CTRL + C)"
+
+mpv ${items[$randomindex]}
+
+CANCION=${items[$randomindex]}
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=UZton86SuOg" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Material Girl - Madonna" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=6F9N-6ITFnA" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Da Ya Think I'm Sexy? - Rod Stewart" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=DCkJ5lGPqFs" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Out of Touch - D. Hall & J. Oates" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=SSkDfGa9Bnw" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Brother Louie - Modern Talking" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=TdlWG29Flow" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Cheri Cheri Lady - Modern Talking" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=iU7oF4OXZSE" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Lose Yourself to Dance - Daft Punk" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=gKylgPPzJHk" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Sugar - Maroon 5" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=fE84i9D9naA" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Daddy Cool - Boney M." | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=f3XcNskAxp0" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Ma Baker - Boney M." | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=f3XcNskAxp0" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Ma Baker - Boney M." | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+
+echo -e "\e[93mDo you wanna listen another song?"
+ select yn in "Yes" "No"; do
+    case $yn in
+        Yes ) bash MRIndie; exit;;
+
+         No ) 
+	     echo -e "\e[94mDo you wanna listen another genre?"
+             	select yn in "Yes" "No"; do
+               		case $yn in
+                 		Yes ) bash MUDATOR.sh; exit;;
+                 		No ) clear; echo "See you later!" | lolcat -a; exit;;
+                 		* ) echo "Please choice a valid option!";;
+                   			esac
+                                        	done;;	 
+
+	* ) echo "Please choice a valid option!";;
+    esac
+done
