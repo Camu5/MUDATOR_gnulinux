@@ -3,14 +3,10 @@
 #Coded by Krypt0N
 
 items=("https://www.youtube.com/watch?v=UZton86SuOg" "https://www.youtube.com/watch?v=f3XcNskAxp0" "https://www.youtube.com/watch?v=fE84i9D9naA" "https://www.youtube.com/watch?v=gKylgPPzJHk" "https://www.youtube.com/watch?v=iU7oF4OXZSE" "https://www.youtube.com/watch?v=TdlWG29Flow" "https://www.youtube.com/watch?v=SSkDfGa9Bnw" "https://www.youtube.com/watch?v=6F9N-6ITFnA" "https://www.youtube.com/watch?v=DCkJ5lGPqFs")
-
 size=${#items[@]}
 randomindex=$(($RANDOM % $size))
-
 echo -e "\e[1;4;35mIf you want to stop playing press (CTRL + C)"
-
 mpv ${items[$randomindex]}
-
 CANCION=${items[$randomindex]}
 
 if [ "$CANCION" == "https://www.youtube.com/watch?v=UZton86SuOg" ]
@@ -109,7 +105,7 @@ echo -e "\e[93mDo you wanna listen another song?"
     case $yn in
         Yes ) bash MRIndie; exit;;
 
-         No ) 
+        No ) 
 	     echo -e "\e[94mDo you wanna listen another genre?"
              	select yn in "Yes" "No"; do
                		case $yn in
