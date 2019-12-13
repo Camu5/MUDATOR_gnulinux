@@ -4,6 +4,20 @@
 GREEN='\033[0;32m'
 NC='\033[0;49m'
 
+if command -v dos2unix; then 
+	dos2unix ED-MR
+	dos2unix MRock	
+	dos2unix MRap
+	dos2unix MRPop
+	dos2unix MRIndie
+	dos2unix MR-Sad
+	dos2unix MRLatina
+	dos2unix RMetal
+	clear
+else 
+	echo "You don't have installed Youtube-DL. Please install dependences by running 'sh Requirements.sh'"
+fi
+
 if command -v figlet; then 
     if command -v toilet; then
 	if command -v ruby; then
