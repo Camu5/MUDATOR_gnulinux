@@ -1,6 +1,21 @@
 #!/bin/bash
 #Coded by Krypt0N
 
+UNIX = false
+if [ $UNIX == false ]; then
+	dos2unix ED-MR
+	dos2unix MRock	
+	dos2unix MRap
+	dos2unix MRPop
+	dos2unix MRIndie
+	dos2unix MR-Sad
+	dos2unix MRLatina
+	dos2unix RMetal
+UNIX = true
+fi
+
+
+
 clear
 read -r -p "MUDATOR is going to install all the packages, repos and libraries needed for use this program. Continue? [Y/N]" response
 
@@ -12,6 +27,7 @@ apt install toilet
 apt install figlet
 apt install ruby
 gem install lolcat
+apt install dos2unix
 apt install mpv python
 pip install youtube-dl 
 cd ..

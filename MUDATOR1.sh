@@ -15,16 +15,16 @@ if command -v dos2unix; then
 	dos2unix RMetal
 	clear
 else 
-	echo "You don't have installed Youtube-DL. Please install dependences by running 'sh Requirements.sh'"
+	echo "You don't have installed dos2unix. Please install dependences by running 'sh Requirements.sh'"
 fi
 
-if command -v figlet; then 
-    if command -v toilet; then
-	if command -v ruby; then
-		if command -v lolcat; then
-			if command -v python; then
-		if command -v mpv; then
-if command -v youtube-dl; then
+	if command -v figlet; then 
+    	if command -v toilet; then
+		if command -v ruby; then
+			if command -v lolcat; then
+				if command -v python; then
+			if command -v mpv; then
+	if command -v youtube-dl; then
 	clear
 	echo 
 	echo -e "\e[104mChecking Dependencies${NC}" 
