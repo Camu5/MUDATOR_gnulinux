@@ -3,6 +3,7 @@
 #Coded by Krypt0N
 
 items=("https://www.youtube.com/watch?v=R2LQdh42neg" "https://www.youtube.com/watch?v=jPBSkfRUwhk" "https://www.youtube.com/watch?v=_nW5AF0m9Zw" "https://www.youtube.com/watch?v=V5YOhcAof8I")
+
 size=${#items[@]}
 randomindex=$(($RANDOM % $size))
 

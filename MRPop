@@ -2,7 +2,7 @@
 
 #Coded by Krypt0N
 
-items=("https://www.youtube.com/watch?v=UZton86SuOg" "https://www.youtube.com/watch?v=f3XcNskAxp0" "https://www.youtube.com/watch?v=fE84i9D9naA" "https://www.youtube.com/watch?v=gKylgPPzJHk" "https://www.youtube.com/watch?v=iU7oF4OXZSE" "https://www.youtube.com/watch?v=TdlWG29Flow" "https://www.youtube.com/watch?v=SSkDfGa9Bnw" "https://www.youtube.com/watch?v=6F9N-6ITFnA" "https://www.youtube.com/watch?v=DCkJ5lGPqFs")
+items=("https://www.youtube.com/watch?v=UZton86SuOg" "https://www.youtube.com/watch?v=6F9N-6ITFnA" "https://www.youtube.com/watch?v=DCkJ5lGPqFs" "https://www.youtube.com/watch?v=SSkDfGa9Bnw" "https://www.youtube.com/watch?v=TdlWG29Flow" "https://www.youtube.com/watch?v=iU7oF4OXZSE" "https://www.youtube.com/watch?v=gKylgPPzJHk" "https://www.youtube.com/watch?v=fE84i9D9naA")
 
 size=${#items[@]}
 randomindex=$(($RANDOM % $size))
@@ -94,20 +94,11 @@ then
          echo
 fi
 
-if [ "$CANCION" == "https://www.youtube.com/watch?v=f3XcNskAxp0" ]
-then
-	echo 
-	 echo -e "\e[91m------------------------------------------------------"
-       	echo -e "\e[1mThis was: Ma Baker - Boney M." | lolcat
-	 echo -e "\e[91m------------------------------------------------------"
-         echo
-fi
-
 
 echo -e "\e[93mDo you wanna listen another song?"
  select yn in "Yes" "No"; do
     case $yn in
-        Yes ) bash MRIndie; exit;;
+        Yes ) bash MRPop; exit;;
 
          No ) 
 	     echo -e "\e[94mDo you wanna listen another genre?"

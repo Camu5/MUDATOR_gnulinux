@@ -18,6 +18,13 @@ cd ..
 mv MUDATOR_gnulinux /root/
 echo "alias MUDATOR='cd /root/MUDATOR_gnulinux && bash MUDATOR1.sh'" >> ~/.bash_aliases
 clear
+if [ if command -v figlet; then 
+    if command -v toilet; then
+	if command -v ruby; then
+		if command -v lolcat; then
+			if command -v python; then
+		if command -v mpv; then
+if comman ]
 echo "Now you can execute MUDATOR by typing 'MUDATOR'" | lolcat -a
 ;;
 [nN][oO]|[nN])
