@@ -2,7 +2,7 @@
 
 #Coded by Krypt0N
 
-items=("https://www.youtube.com/watch?v=sHQ9BdvZPco" "https://www.youtube.com/watch?v=NMlKHIqtuO0" "https://www.youtube.com/watch?v=uyo9zQvtKbE" "https://www.youtube.com/watch?v=IhnOpwOMHgk" "https://www.youtube.com/watch?v=VCQq4fbIEZE")
+items=("https://www.youtube.com/watch?v=sHQ9BdvZPco" "https://www.youtube.com/watch?v=NMlKHIqtuO0" "https://www.youtube.com/watch?v=uyo9zQvtKbE" "https://www.youtube.com/watch?v=IhnOpwOMHgk" "https://www.youtube.com/watch?v=VCQq4fbIEZE" "https://www.youtube.com/watch?v=AXvW4nIke2I" "https://www.youtube.com/watch?v=BRuHGchMrD8" "https://www.youtube.com/watch?v=BRuHGchMrD8" "https://www.youtube.com/watch?v=Z3L5M7GHAkw" "https://www.youtube.com/watch?v=XvDw0LXZCNI" "https://www.youtube.com/watch?v=2NH1d5GRU1g" "https://www.youtube.com/watch?v=PHJySNprg4Q" "https://www.youtube.com/watch?v=98tybAiR2NY" "https://www.youtube.com/watch?v=vwYGbqrDsow" "https://www.youtube.com/watch?v=nrn43ebiQSc" "https://www.youtube.com/watch?v=7PHqjNbwnwU" "https://www.youtube.com/watch?v=d60TUacauF4" "https://www.youtube.com/watch?v=_O_O4XesuA4" "https://www.youtube.com/watch?v=T17tMGPjxJo" "https://www.youtube.com/watch?v=1EajEe7tFIY" "https://www.youtube.com/watch?v=j8nNQR80aUw" "https://www.youtube.com/watch?v=pnxYficAlZg" "https://www.youtube.com/watch?v=98Akpf1ph2o" "https://www.youtube.com/watch?v=gBt1jOtKz6Y" "https://www.youtube.com/watch?v=r2g0pM3PMNQ" "https://www.youtube.com/watch?v=vZP2XLqjFIg" "https://www.youtube.com/watch?v=COYYL9EBKJ0" "https://www.youtube.com/watch?v=HLPFzL-K5-4" "https://www.youtube.com/watch?v=6Gfdm2E1XZY" "https://www.youtube.com/watch?v=J6Se3Gfj4uE" "https://www.youtube.com/watch?v=7fwUH0oRmkQ" "https://www.youtube.com/watch?v=nPY9ZGg34so" "https://www.youtube.com/watch?v=ko24BZXdK8c" "https://www.youtube.com/watch?v=hnCQlCqjvqo" "https://www.youtube.com/watch?v=SqEBfm9ekaI" "https://www.youtube.com/watch?v=H1mJEWtmo40" "https://www.youtube.com/watch?v=NjUk5R_DZ7g" "https://www.youtube.com/watch?v=x9lEJdzMeq4" "https://www.youtube.com/watch?v=3trbXHMyxEY" "https://www.youtube.com/watch?v=2vbeNshimz8" "https://www.youtube.com/watch?v=OSiE9IiLico")
 size=${#items[@]}
 randomindex=$(($RANDOM % $size))
 
@@ -62,6 +62,322 @@ then
 	echo 
 	 echo -e "\e[91m------------------------------------------------------"
        	echo -e "\e[1mThis was: La Celula que Explota - Caifanes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=AXvW4nIke2I" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Maldito Duende - Heroes del Silencio" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=BRuHGchMrD8" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Lamento Boliviano - Enanitos Verdes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=Z3L5M7GHAkw" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Persiana Americana - Soda Stereo" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=XvDw0LXZCNI" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: En Algun Lugar - Duncan Dhu" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=2NH1d5GRU1g" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: La Muralla Verde - Enanitos Verdes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=PHJySNprg4Q" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Amargo Adios - Inspector" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=98tybAiR2NY" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: En La Ciudad De La Furia - Soda Stereo" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=vwYGbqrDsow" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Mariposa Traicionera - Mana" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=nrn43ebiQSc" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Bailando Solo - Los Bunkers" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=7PHqjNbwnwU" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Cuando Pase el Temblor - Soda Stereo" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=d60TUacauF4" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Hielo - Zoe" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=_O_O4XesuA4" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Nada - Zoe" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=T17tMGPjxJo" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Luna (Live) - Zoe" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=1EajEe7tFIY" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Labios Rotos - Zoe" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=j8nNQR80aUw" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Poli - Zoe" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=pnxYficAlZg" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Love - Zoe" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=98Akpf1ph2o" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Eres - Cafe Tacvba" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=gBt1jOtKz6Y" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Afuera - Caifanes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=r2g0pM3PMNQ" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: La Flaca - Jarabe de Palo" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=vZP2XLqjFIg" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Fiesta Pagana - Mago de Oz" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=COYYL9EBKJ0" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: De La Noche A La Manana - ELEFANTE" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=HLPFzL-K5-4" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: La Dosis Perfecta - Panteon Rococo" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=6Gfdm2E1XZY" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: La Magia - Little Jesus" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=J6Se3Gfj4uE" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Oye Mi Amor - Mana" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=7fwUH0oRmkQ" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: La Camisa Negra - Juanes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=nPY9ZGg34so" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: La Plata - Caos" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=ko24BZXdK8c" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Nada Personal - Soda Stereo" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=hnCQlCqjvqo" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Aire Soy - Miguel Bose & Ximena S" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=SqEBfm9ekaI" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Tu Carcel - Enanitos Verdes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=H1mJEWtmo40" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Guitarras Blancas - Enanitos Verdes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=NjUk5R_DZ7g" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Aprovechate - Cafe Tacvba" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=x9lEJdzMeq4" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Dulce Soledad - Enjambre" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=3trbXHMyxEY" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Entre Dos Tierras - Heroes del Silencio" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=2vbeNshimz8" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Nubes - Caifanes" | lolcat
+	 echo -e "\e[91m------------------------------------------------------"
+         echo
+fi
+
+if [ "$CANCION" == "https://www.youtube.com/watch?v=OSiE9IiLico" ]
+then
+	echo 
+	 echo -e "\e[91m------------------------------------------------------"
+       	echo -e "\e[1mThis was: Molinos de Viento - Mago de Oz" | lolcat
 	 echo -e "\e[91m------------------------------------------------------"
          echo
 fi
